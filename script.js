@@ -15,6 +15,36 @@ const questions = [
         answer: 0
     },
     {
+        question:"Qual é a complexidade de tempo do algoritmo de busca binária?",
+        options:["0(n)", "0(log n)", "0(n²)", "0(1)"],
+        answer: 1
+    },
+    {
+        question:"Em JavaScript, o que acontece quando você compara `null == undefined`?",
+        options:["Retorna true", "Retorna false", "Gera erro", "Retorna undefined"],
+        answer: 0
+    },
+    {
+        question:"Qual estrutura de dados é ideal para implementar uma fila com prioridade?",
+        options:["Array", "Lista encadeada", "Heap", "Pilha"],
+        answer: 2
+    },
+    {
+    question: "No desenvolvimento mobile com React Native, qual hook é usado para lidar com efeitos colaterais?",
+    options: ["useState", "useEffect", "useContext", "useReducer"],
+    answer: 1
+},
+{
+    question: "Qual das opções representa corretamente o conceito de closure em JavaScript?",
+    options: [
+        "Uma função que retorna outra função",
+        "Uma função que acessa variáveis fora do seu escopo",
+        "Uma função que é executada imediatamente",
+        "Uma função que só funciona dentro de classes"
+    ],
+    answer: 1
+  },
+    {
         question:"E aí Jeferson? Aceita ser o nosso padrinho de rosas na formatura?",
         options: ["Sim, eu amo vocês!", "Não, prefiro o 2º tds...", "Só se tiver churrasco"],
         answer: 0
