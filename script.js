@@ -25,24 +25,19 @@ const questions = [
         answer: 0
     },
     {
-        question:"Qual estrutura de dados é ideal para implementar uma fila com prioridade?",
-        options:["Array", "Lista encadeada", "Heap", "Pilha"],
+        question:"Com qual dos alunos você já quase saiu na mão?",
+        options:["Gustavo", "Isadora", "Kaue", "Fabio"],
         answer: 2
     },
     {
-    question: "No desenvolvimento mobile com React Native, qual hook é usado para lidar com efeitos colaterais?",
-    options: ["useState", "useEffect", "useContext", "useReducer"],
+    question: "Qual desses anabolizantes você usa Jeferson? VOCÊ USA SUCO SIM",
+    options: ["Monjaro", " Trembolona", "Refri", "Água"],
     answer: 1
 },
 {
-    question: "Qual das opções representa corretamente o conceito de closure em JavaScript?",
-    options: [
-        "Uma função que retorna outra função",
-        "Uma função que acessa variáveis fora do seu escopo",
-        "Uma função que é executada imediatamente",
-        "Uma função que só funciona dentro de classes"
-    ],
-    answer: 1
+    question: "Qual o seu apelido mais carinhoso?",
+    options: ["Jeje", "Jefinho", "Marrom bombom", "Todos pq você é uma diva divonica💅🏼!"],
+    answer: 3
   },
     {
         question:"E aí Jeferson? Aceita ser o nosso padrinho de rosas na formatura?",
@@ -106,3 +101,4 @@ retryBtn.onclick = startQuiz;
 document.getElementById("options").appendChild(retryBtn);
   }
 }
+
